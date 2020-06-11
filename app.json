@@ -23,10 +23,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAZ-rucS-jGjNdVJS-ltfJP-H_NJiDl8KY"
+      }
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAZ-rucS-jGjNdVJS-ltfJP-H_NJiDl8KY"
+        }
+      }
     }
   }
 }
